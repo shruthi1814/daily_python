@@ -5,7 +5,7 @@ print(name1+"datawithbara.com")
 print(name2+"datawithbara.com")
 print(name3+"datawithbara.com")
 
-age = 21
+age = 22
 height = 5.14
 name = "shruthi"
 student = True
