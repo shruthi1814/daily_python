@@ -15,3 +15,6 @@ print("my height is",height)
 print("my age is",age)
 print("are you student?",student)
 print(no)
+
+stamp = "2026-05-12"
+print(stamp.split("-"))
