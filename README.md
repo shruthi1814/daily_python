@@ -18,3 +18,6 @@ print(no)
 
 stamp = "2026-05-12"
 print(stamp.split("-"))
+
+print("="*30)
+print("ha"*4)
