@@ -21,3 +21,6 @@ print(stamp.split("-"))
 
 print("="*30)
 print("ha"*4)
+
+phone = "+49 (167) 123-456"
+print(phone.replace("+","").replace(" ","").replace("(","").replace(")","").replace("-",""))
