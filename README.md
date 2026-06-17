@@ -24,3 +24,8 @@ print("ha"*4)
 
 phone = "+49 (167) 123-456"
 print(phone.replace("+","").replace(" ","").replace("(","").replace(")","").replace("-",""))
+
+name = "shruthi"
+age = 21
+student = True
+print(f"my name is {name},and I'm {age} years old and my student status is {student}")
