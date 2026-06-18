@@ -29,3 +29,6 @@ name = "shruthi"
 age = 21
 student = True
 print(f"my name is {name},and I'm {age} years old and my student status is {student}")
+
+print(f"2*4={2*4}")
+print(f"4/2= {4/2}")
