@@ -32,3 +32,7 @@ print(f"my name is {name},and I'm {age} years old and my student status is {stud
 
 print(f"2*4={2*4}")
 print(f"4/2= {4/2}")
+
+name = input("enter your name:")
+country = "India"
+print ("my name is",name,"and I am from",country)
