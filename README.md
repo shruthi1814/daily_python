@@ -36,3 +36,10 @@ print(f"4/2= {4/2}")
 name = input("enter your name:")
 country = "India"
 print ("my name is",name,"and I am from",country)
+
+x = 10
+y = 3.14
+z = 3+4j
+print(type(x))
+print(type(y))
+print(type(z))
