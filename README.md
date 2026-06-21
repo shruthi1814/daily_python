@@ -43,3 +43,9 @@ z = 3+4j
 print(type(x))
 print(type(y))
 print(type(z))
+
+print(2-10)
+print(abs(2-10))
+price = "123.456"    #str
+price = float(price)
+print(round(price))
