@@ -49,3 +49,8 @@ print(abs(2-10))
 price = "123.456"    #str
 price = float(price)
 print(round(price))
+
+# # updating a list
+letters = ['a','c','d','e']
+letters[1] = 'x'                 # updates the element at the specified index
+print(letters)
