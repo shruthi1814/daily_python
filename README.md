@@ -62,3 +62,8 @@ print(math.ceil(price))
 print(round(price))
 print(round(price,2))
 print(math.trunc(price))
+
+x = 10
+y = math.sqrt(x)
+print(y)
+print(math.trunc(y))
