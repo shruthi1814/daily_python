@@ -54,3 +54,11 @@ print(round(price))
 letters = ['a','c','d','e']
 letters[1] = 'x'                 # updates the element at the specified index
 print(letters)
+
+import math
+price = 34.5678
+print(math.floor(price))
+print(math.ceil(price))
+print(round(price))
+print(round(price,2))
+print(math.trunc(price))
