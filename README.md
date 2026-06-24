@@ -67,3 +67,10 @@ x = 10
 y = math.sqrt(x)
 print(y)
 print(math.trunc(y))
+
+score = 100
+if score>=80:
+    print("passed")
+    print("hurryyyyy!!!")
+else:
+    print("failed")
