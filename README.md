@@ -74,3 +74,15 @@ if score>=80:
     print("hurryyyyy!!!")
 else:
     print("failed")
+
+
+# elif statement
+score = 80
+if score >=90:
+    print("good")
+elif score >=70:
+    print("average")
+elif score >=50:
+    print("poor")
+else:
+    print("failed")
