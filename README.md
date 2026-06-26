@@ -1,3 +1,5 @@
+
+
 name1 = "info@"
 name2 = "support@"
 name3 = "www."
@@ -86,3 +88,14 @@ elif score >=50:
     print("poor")
 else:
     print("failed")
+
+# nested if
+assignment = 60
+project = True
+if assignment >=90:
+    if project:
+        print("A+" )
+    else:
+        print("good")
+else:
+    print("fail")
