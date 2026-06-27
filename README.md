@@ -99,3 +99,14 @@ if assignment >=90:
         print("good")
 else:
     print("fail")
+
+
+# elif statement
+mark = 100
+project = False
+if mark>=90 and project:
+    print("A+")
+elif mark >=50 and not project:
+    print("good")
+else:
+    print("Fail")
