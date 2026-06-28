@@ -110,3 +110,5 @@ elif mark >=50 and not project:
     print("good")
 else:
     print("Fail")
+
+print("hello")
