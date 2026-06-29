@@ -112,3 +112,4 @@ else:
     print("Fail")
 
 print("hello")
+print("nothing is impossible")
