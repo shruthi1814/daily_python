@@ -113,3 +113,15 @@ else:
 
 print("hello")
 print("nothing is impossible")
+
+# independent if statement
+score = 90
+project = False
+if score >=80:
+    print("hight score")
+else:
+    print("low score")
+if project:
+    print("project completed")
+else:
+    print("project not submitted")
