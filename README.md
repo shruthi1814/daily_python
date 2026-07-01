@@ -125,3 +125,10 @@ if project:
     print("project completed")
 else:
     print("project not submitted")
+
+# ternary if
+score = 79
+print("pass" if score >=80 else "fail")
+
+result = "pass" if score >=80 else "fail"
+print(result)
