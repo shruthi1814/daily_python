@@ -132,3 +132,15 @@ print("pass" if score >=80 else "fail")
 
 result = "pass" if score >=80 else "fail"
 print(result)
+
+# match case
+country = "egypt"
+match country:
+    case "united states":
+        print("us")
+    case "india":
+        print("IN")
+    case "germany":
+        print("DE")
+    case _:
+        print("unknown country")
