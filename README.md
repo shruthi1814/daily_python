@@ -1,5 +1,6 @@
 
 
+
 name1 = "info@"
 name2 = "support@"
 name3 = "www."
@@ -144,3 +145,8 @@ match country:
         print("DE")
     case _:
         print("unknown country")
+
+# challenge-------1
+email = "user@gmail.org"
+print(email is not " " and email is not "" and "." in email and "@" in email and (email.endswith(".com") or email.endswith(".net") or email.endswith(".org")) and len(email)<=254)
+
