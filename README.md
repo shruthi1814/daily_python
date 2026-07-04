@@ -1,6 +1,3 @@
-
-
-
 name1 = "info@"
 name2 = "support@"
 name3 = "www."
@@ -149,4 +146,24 @@ match country:
 # challenge-------1
 email = "user@gmail.org"
 print(email is not " " and email is not "" and "." in email and "@" in email and (email.endswith(".com") or email.endswith(".net") or email.endswith(".org")) and len(email)<=254)
+
+# challenge-------2
+
+password = "Shruthi!1215#"
+email = "shruthi@123"
+
+password = password.strip()
+email = email.strip()
+
+if password =="":
+    print("password must not be empty...fill the password")
+
+elif len(password)<8:
+    print("password must contain more than 8 characters..")
+
+elif not(any(ch.isupper() for ch in password) and any(ch.islower() for ch in password)):
+    print("password must contain both uppercase and lowercase letters..")
+
+elif password == email:
+    print("password must not be same as email..")
 
