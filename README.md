@@ -167,3 +167,7 @@ elif not(any(ch.isupper() for ch in password) and any(ch.islower() for ch in pas
 elif password == email:
     print("password must not be same as email..")
 
+# for loop basics
+for i in (1,2,3):
+    print(i) 
+
