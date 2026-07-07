@@ -173,3 +173,8 @@ for i in (1,2,3):
 
 for i in (1,2,3,4,5):
     print("Round:",i)
+
+# for in tuple
+items = (1,2,3,4,5,6)
+for item in items:
+    print(f"Round no: {item}")
