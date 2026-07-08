@@ -178,3 +178,8 @@ for i in (1,2,3,4,5):
 items = (1,2,3,4,5,6)
 for item in items:
     print(f"Round no: {item}")
+
+# for in list
+items = [1,2,3,4,5,"hello"]
+for item in items:
+    print(f"Round no: {item}")
