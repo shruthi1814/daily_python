@@ -183,3 +183,8 @@ for item in items:
 items = [1,2,3,4,5,"hello"]
 for item in items:
     print(f"Round no: {item}")
+
+# for in string
+items = " python"
+for item in items:
+    print(f"Round no: {item}")
