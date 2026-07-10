@@ -188,3 +188,7 @@ for item in items:
 items = " python"
 for item in items:
     print(f"Round no: {item}")
+
+# for in range
+for item in range(100):
+    print(f"Round no: {item}")
