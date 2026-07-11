@@ -192,3 +192,8 @@ for item in items:
 # for in range
 for item in range(100):
     print(f"Round no: {item}")
+
+# challenge-----------1
+# print the 7th table from 1 to 10 using for loop
+for i in range(1,11):
+    print(f"7 x {i} = {7*i}")
