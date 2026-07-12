@@ -197,3 +197,7 @@ for item in range(100):
 # print the 7th table from 1 to 10 using for loop
 for i in range(1,11):
     print(f"7 x {i} = {7*i}")
+
+# print a left-aligned pyramid of stars using for loop
+for i in range(1,7):
+    print("* "*i)
