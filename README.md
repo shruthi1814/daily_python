@@ -201,3 +201,11 @@ for i in range(1,11):
 # print a left-aligned pyramid of stars using for loop
 for i in range(1,7):
     print("* "*i)
+
+# break statement
+names = ["john","jane","doe","","smith"]
+for name in names:
+    if name=="":
+        print("empty value deceted..!")
+        break
+    print(f"Name:{name}")
