@@ -209,3 +209,11 @@ for name in names:
         print("empty value deceted..!")
         break
     print(f"Name:{name}")
+
+# continue statement
+names = ["john","jane","doe","","smith"]
+for name in names:
+    if name=="":
+        print("empty value deceted..!")
+        continue
+    print(f"Name:{name}")
