@@ -1,4 +1,4 @@
-name1 = "info@"
+vname1 = "info@"
 name2 = "support@"
 name3 = "www."
 print(name1+"datawithbara.com")
@@ -217,3 +217,17 @@ for name in names:
         print("empty value deceted..!")
         continue
     print(f"Name:{name}")
+
+# # example
+days = int(input())
+sms = int(input())
+calls = int(input())
+data = float(input())
+
+print("Your plan expired. Kindly recharge"if days > 84 else f"Your plan will be expired on {84-days} days")
+
+print("msg failed" if sms > 100 else f"yet to use {100-sms}")
+
+print("calls could not be connected. kindly top up" if calls > 3000 else f"yet to use {3000-calls} calls")
+
+print("kindly top up" if data > 2.0 else f"yet to use {2.0-data} gb")
