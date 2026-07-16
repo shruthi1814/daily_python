@@ -233,7 +233,7 @@ print("calls could not be connected. kindly top up" if calls > 3000 else f"yet t
 print("kindly top up" if data > 2.0 else f"yet to use {2.0-data} gb")
 
 
-# example
+# # example
 n = "kashmir258"
 f = ""
 m = ""
