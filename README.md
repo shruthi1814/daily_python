@@ -231,3 +231,24 @@ print("msg failed" if sms > 100 else f"yet to use {100-sms}")
 print("calls could not be connected. kindly top up" if calls > 3000 else f"yet to use {3000-calls} calls")
 
 print("kindly top up" if data > 2.0 else f"yet to use {2.0-data} gb")
+
+
+# example
+n = "kashmir258"
+f = ""
+m = ""
+d = ""
+for i in range(len(n)):
+    if n[i].isalpha():
+        print(n[i], end = '')
+    if n[i].isnumeric():
+        f += n[i]
+m = sum(int(digit) for digit in f)
+first_sum = m
+while m>9:
+    d = sum(int(d) for d in str(m))
+    m = d
+print()
+print(f)
+print(first_sum)
+print(m)
