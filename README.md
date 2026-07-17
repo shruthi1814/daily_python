@@ -252,3 +252,19 @@ print()
 print(f)
 print(first_sum)
 print(m)
+
+
+# to print a magical prime number if a number is prime and the reverse of the number is also prime then it is called a magical prime number
+
+n = int(input("enter a number: "))
+def is_prime(num):  
+    if num < 2:
+        return False
+    for i in range(2, int(num**0.5) + 1):
+        if num % i == 0:
+            return False
+    return True
+if is_prime(n):
+    print("it is a magical prime number")
+else:
+    print("not a magical prime number45")
