@@ -268,3 +268,13 @@ if is_prime(n):
     print("it is a magical prime number")
 else:
     print("not a magical prime number45")
+
+# Print the frequency of every character in the string.
+k = input("enter a string:")
+for i in range(len(k)):
+    count = 0
+    for j in range(len(k)):
+        if k[i] == k[j]:
+            count +=1
+    print(k[i],":",count)
+
