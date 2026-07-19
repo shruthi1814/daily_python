@@ -1,4 +1,4 @@
-vname1 = "info@"
+name1 = "info@"
 name2 = "support@"
 name3 = "www."
 print(name1+"datawithbara.com")
@@ -277,4 +277,16 @@ for i in range(len(k)):
         if k[i] == k[j]:
             count +=1
     print(k[i],":",count)
+
+# # first repeating character in a string
+t = "happy birthday to you"
+
+for i in range(len(t)):
+    for j in range(i):
+        if t[i] == t[j]:
+            print("First repeating character:", t[i])
+            break
+    else:
+        continue
+    break
 
