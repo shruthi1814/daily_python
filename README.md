@@ -290,3 +290,14 @@ for i in range(len(t)):
         continue
     break
 
+# First Non-Repeating Character
+k = "swiss"
+for i in range(len(k)):
+    count= 0
+    for j in range(len(k)):
+        if k[j]==k[i]:
+            count+=1
+    if count == 1:
+        break
+print(k[i],":",count)
+
