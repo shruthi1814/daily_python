@@ -301,3 +301,14 @@ for i in range(len(k)):
         break
 print(k[i],":",count)
 
+# Print only the duplicate characters once.
+k = input("enter a string:")
+s = ""
+for i in range(len(k)):
+    for j in range(i):
+        if k[j]==k[i]:
+            if k[i] not in s:
+                s+=k[i]       
+print(s)
+
+
