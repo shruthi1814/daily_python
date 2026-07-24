@@ -327,4 +327,9 @@ else:
 # print statement
 print("hii")
 
+# to print tamil letters
+print(chr(2949))
+
+
+
 
