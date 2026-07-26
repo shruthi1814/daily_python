@@ -330,6 +330,9 @@ print("hii")
 # to print tamil letters
 print(chr(2949))
 
+# to print 0.0 to 1.0 in steps of 0.1
+for i in range(0, 11):
+    print(i/10)
 
 
 
