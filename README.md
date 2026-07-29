@@ -339,3 +339,14 @@ print("today pilot study starts")
 
 # print statement
 print("second day of n8n")
+
+# boolean value example
+nums = [1,2,3,4,5,6,7]
+found = False
+for i in range(len(nums)):
+    if nums[i]==3:
+        found = True
+        print("found")
+        break
+else:
+    print("not found")
