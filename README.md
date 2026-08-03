@@ -350,3 +350,6 @@ for i in range(len(nums)):
         break
 else:
     print("not found")
+
+# print statement
+print("second day of n8n")
