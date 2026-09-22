@@ -353,3 +353,32 @@ else:
 
 # print statement
 print("second day of n8n")
+
+
+# creating class and objects ------------ example 1
+
+class student:
+    student_name = ""
+    subject = ""
+    def section_a(self):
+        print("lets learn english..")
+    def section_B(self):
+        print("lets learn tamil...")
+
+ram = student()              # object
+suresh = student()           # object
+
+ram.student_name = "Ramesh"
+ram.subject = "english"
+
+suresh.student_name = "Suresh"
+suresh.subject = "tamil"
+
+print("student name is",ram.student_name)
+print("Ramesh likes to learn",ram.subject)
+
+print("student name is",suresh.student_name)
+print("suresh likes to learn",suresh.subject)
+
+ram.section_a()
+suresh.section_B()
