@@ -382,3 +382,23 @@ print("suresh likes to learn",suresh.subject)
 
 ram.section_a()
 suresh.section_B()
+
+# creating class and objects ------------ example 2
+class laptop:
+    price= ""
+    processor = ""
+    ram = ""
+
+hp = laptop()
+dell = laptop()
+
+hp.price = 3000
+hp.processor = "intel"
+hp.ram = "62gb"
+
+dell.price = 6000
+dell.processor = "linux"
+dell.ram = "128gb"
+
+print(hp.price)
+print(dell.processor)
