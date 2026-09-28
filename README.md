@@ -402,3 +402,6 @@ dell.ram = "128gb"
 
 print(hp.price)
 print(dell.processor)
+
+# print statement
+print("hello")
